@@ -32,7 +32,7 @@ level = {
     "level 2" : ("Medium level",15,(20)),
     "level 3" : ("Hard level",10,(50))
 }
-# print(level["level 1"][0])
+
 
 print("choose a level")
 print(
@@ -50,11 +50,9 @@ if level_ == "1":
 elif level_ == "2":
     print(level["level 2"][0])
     print(project(level["level 2"][1],level["level 2"][2])) 
-    # print("level 2")
-    # print(project(15,20)) 
+    
 elif level_ == "3": 
     print(level["level 3"][0])
     print(project(level["level 3"][1],level["level 3"][2])) 
-    # print("level 3")  
-    # print(project(10,50)) 
+     
     
